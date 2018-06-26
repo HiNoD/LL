@@ -1,0 +1,5 @@
+<S>->id = <E> # / id
+<S>->while <E> do <S> # / while
+<E>->id <A> / id
+<A>->/ # do
+<A>->+ <E> <A> / +
